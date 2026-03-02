@@ -8,12 +8,10 @@ const App = () => {
   return (
     <>
       <Navbar />
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutUs />} />
       </Routes>
-
       <Footer />
     </>
   );
